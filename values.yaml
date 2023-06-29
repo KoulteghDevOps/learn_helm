@@ -83,8 +83,8 @@ affinity: {}
 
 #podName: sample1
 
-podName: httpd
-image_name: httpd
-
-open_port: true
+#podName: httpd
+#image_name: httpd
+#
+#open_port: true
 
