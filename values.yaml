@@ -83,8 +83,16 @@ affinity: {}
 
 #podName: sample1
 
-#podName: httpd
-#image_name: httpd
-#
-#open_port: true
+podName: httpd
+image_name: httpd
+
+open_port: false
+
+ports:
+  - 80
+  - 8080
+
+env:
+  url: google.com
+  domain: .com
 
